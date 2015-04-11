@@ -56,7 +56,9 @@ case '2':
 default:
     // do...
 
-}```
+}
+
+```
 
 ##### [强制] `链式调用`较长时采用`缩进`进行调整。
 
@@ -311,7 +313,7 @@ function funcName () {
 funcName ();
 ```
 
-##### [强制] 使用`函数表达式`声明函数时，关键词`function`之后应有空格。
+##### [强制] 使用`函数表达式`声明函数或使用`匿名函数`时，关键词`function`之后应有空格。
 
 示例：
 
@@ -319,9 +321,14 @@ funcName ();
 // good
 var funcName = function () {
 };
+var value = (function () {
+}());
+
 // bad
-var funcName = function(){
+var funcName = function() {
 };
+var value = (function() {
+}());
 ```
 
 ##### [强制] `,` 和 `;` 前不允许有空格，`,`之后应有一个空格。
