@@ -6,3 +6,4 @@ Thank these guys for their work:
 - PHP coding standard by Gaviny
 - CSS coding standard by leaf-hsiao
 - HTML coding standard by leaf-hsiao
+- JavaScript coding standard by NameIsUseless
