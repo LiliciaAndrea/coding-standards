@@ -35,7 +35,7 @@
 
 对于将要输出在前端页面的变量，必须使用 `htmlspecialchars` 进行过滤。
 
-##### 1.2.2 检查 ` URL`
+#### 1.2.2 检查 ` URL`
 
 攻击者可能会构造 `伪协议` 实施攻击：
 ```html
@@ -126,22 +126,14 @@ open_basedir 可以用来限制 PHP 可读写的文件目录。
 避免使用 `eval`、`system` 等调用系统命令的函数。
 
 
-## 参考
+## 4 参考资料
 
-> https://www.owasp.org/index.php/PHP_Security_Cheat_Sheet PHP_Security_Cheat_Sheet
-> http://drops.wooyun.org/papers/4544   论PHP常见的漏洞
-> http://drops.wooyun.org/papers/155 CSRF简单介绍及利用方法
-> http://zone.wooyun.org/content/1910 PHP上传绕过及缺陷经验解说
-> http://zone.wooyun.org/content/1872 PHP变量覆盖经验解说
+> https://www.owasp.org/index.php/PHP_Security_Cheat_Sheet  PHP_Security_Cheat_Sheet
 
+> http://drops.wooyun.org/papers/4544  论PHP常见的漏洞
 
+> http://drops.wooyun.org/papers/155  CSRF简单介绍及利用方法
 
+> http://zone.wooyun.org/content/1910  PHP上传绕过及缺陷经验解说
 
-
-
-
-
-
-
-
-
+> http://zone.wooyun.org/content/1872  PHP变量覆盖经验解说
